@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nev {
+display: flex;
+justify-content: space-between;
+background-color: rgb(52, 12, 139);
+border: 3px solid rgba(27, 0, 182, 0.918);
+padding: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.banner {
+    background-color: rgb(221, 229, 83);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info img {
+width: 500px;
+}
+
+main div {
+    
+    color:black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+main p {
+    
+    color:black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
